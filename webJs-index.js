@@ -48,6 +48,16 @@ function test() {
   
 }
 
+var counter = "strings"
+    counter.length            // using the .length option, you can identify the amount of characters there are in the data stored to the variable
+                              // so it would display 7
+    count.slice(0,181)        // using .slice it will crop the specified length of characers stored in the variable
+                              // in this case it will displace from the 0 character to the 180th. 
+    count.toUpperCase()       // this will capitalize the charaters stored, or you can specify the character you want to upper case.
+                              // this can be done for lower case as well 
+                              
+%      // this is a modulo. it gives the remainder of two numbers 
+++ , --    // you can increment or decrement using the double positive or negative to change the value by 1. so ++5 will be 6
 
 
 
