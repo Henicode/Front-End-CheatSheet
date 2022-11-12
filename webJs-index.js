@@ -76,4 +76,4 @@ var guestList = ['bob', 'angie', 'martin']         // in this var called guestLi
 guestList[2];                      // you can call on the data stored in a specific position. so since counting start at 0, number 2 will output 'martin'.
 
 
-
+//
