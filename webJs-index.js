@@ -59,7 +59,17 @@ var counter = "strings"
 %      // this is a modulo. it gives the remainder of two numbers 
 ++ , --    // you can increment or decrement using the double positive or negative to change the value by 1. so ++5 will be 6
 
+// functions();    you can use a function to creat a block of code designed to perform a patricular task
 
+function firstFunction (parameter1, parameter2){                 // created a function named firstFunction to identify that block of code and declared two parameters
+  return true;                                                   // the parameters behave as local variables and can be called upon 
+}
+
+if (firstFunction < 3){                   // using an if statement, you can specify a block of code to be executed if a specified condition is true
+  return false;                           // this will be what itll return if the condition above is true.
+}else {                                   // using an else statement, you can specify a bloack of code to be executed, if the statement is false
+  return true;                            // this is what it will return if the condition is false.
+}
 
 
 
