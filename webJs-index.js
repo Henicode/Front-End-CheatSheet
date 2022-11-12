@@ -65,13 +65,15 @@ function firstFunction (parameter1, parameter2){                 // created a fu
   return true;                                                   // the parameters behave as local variables and can be called upon 
 }
 
-if (firstFunction < 3){                   // using an if statement, you can specify a block of code to be executed if a specified condition is true
+if (firstFunction < 3){                   // using an if statement, you can specify a block of code to be executed if a specified condition(in the brackets) is true
   return false;                           // this will be what itll return if the condition above is true.
 }else {                                   // using an else statement, you can specify a bloack of code to be executed, if the statement is false
   return true;                            // this is what it will return if the condition is false.
 }
 
-
+[]                                    // Array. arrays are identified with square brackets and can be used by storing many for variable. 
+var guestList = ['bob', 'angie', 'martin']         // in this var called guestList is stored an array of information.
+guestList[2];                      // you can call on the data stored in a specific position. so since counting start at 0, number 2 will output 'martin'.
 
 
 
