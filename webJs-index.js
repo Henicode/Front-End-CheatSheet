@@ -100,6 +100,13 @@ while(i < 10) {                  // with the while loop, it basically says while
   i++;                           // then we increment the value of i until the while statement is false so this creates a loop until 9
 }
 
+// FOR LOOOOOOOP                 // for loop is basically a reshuffled version of while loop. more simplified 
+
+for(i=1; i<10 ; i++){            // in the parentheses the first statment is the start of the consition, second is the end and third is the change being implimented 
+  console.log(i);                // now while the first two statments in the paratheses is true, this line will be executed
+}                                // so for this loop. first stat sets the value of i to 1, second stat lets know the conition so WHILE i is less than 10,
+                                 // third will be executed once the loop for the two statment is true. so it goes i=1 => i<10 then it executes the console.log. 
+                                 // And then the third command is implimented after the condition which is the console.log. 
 
 
 
