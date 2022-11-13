@@ -92,6 +92,13 @@ name.includes("kenny");              // by using .inlcudes and specifying what y
 name.push("");                      // using the .push function. you can add item to the last element of the array.
 name.pop;                           // can use .pop to remove the last item of the array. 
 
+/// WHILE LOOOOOOOP                // while loop loops through a block of code as long as a specified condition is true.
+
+var i = 1;                        // we will use this variable i to store a number to use for a while loop
+while(i < 10) {                  // with the while loop, it basically says while the statement in the parentheses is true which in this case is while i is less than 10 
+  console.log(i);                // while the statement above is true, you can execute this line of code in the curly bracket.
+  i++;                           // then we increment the value of i until the while statement is false so this creates a loop until 9
+}
 
 
 
