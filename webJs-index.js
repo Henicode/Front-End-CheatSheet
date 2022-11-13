@@ -76,4 +76,6 @@ var guestList = ['bob', 'angie', 'martin']         // in this var called guestLi
 guestList[2];                      // you can call on the data stored in a specific position. so since counting start at 0, number 2 will output 'martin'.
 
 
-//
+Math.floor(Math.random() * 10);        // with the .floor you can turn int into numbers with out decimals. using .random you can generate random numbers
+                                       // from 0.00 to 0.99999. and by multipying that by 10 you'd get numbers from 0-9. if you need numbers from 0-10
+                                       // you can either add 1 at the end or add 1 to the multiplied value 
