@@ -69,6 +69,8 @@ if (firstFunction < 3){                   // using an if statement, you can spec
   return false;                           // this will be what itll return if the condition above is true.
 }else if (firstFunction >=8){             // using else if statement, you can add more conditions to the function so when the first if statment is not true, you can try this
   return "rumble";                        // and if this else if statment is true then it will execute the command which in this case is the word rumble
+}else if (firstFunction >= 8 && firstFunction < 3){     // by using the && method, you can combine comparisons for the function 
+  return "jump";                                        // so if both the conditions are true, this line will be executed which will return the string "jump".
 }else {                                   // using an else statement, you can specify a block of code to be executed, if both statements above it is false
   return true;                            // this is what it will return if the condition is false.
 }
@@ -82,6 +84,17 @@ Math.floor(Math.random() * 10);        // with the .floor you can turn int into 
                                        // from 0.00 to 0.99999. and by multipying that by 10 you'd get numbers from 0-9. if you need numbers from 0-10
                                        // you can either add 1 at the end or add 1 to the multiplied value 
 
-=== OR ==                             // the difference between two and three equal signs. three equals checks that if the data types is also equal
+=== OR ==                             // the difference between two and three equal signs. three equals checks that if its equal in value and data types 
   
-  
+var names = ["john", "bob","kenny"]   //  Array. using an array which is the square brackets. you can store many data items/values for the variable. 
+                                     //   you can store numbers, strings, boolean values (true and false), characters, objects in an array.
+name.includes("kenny");              // by using .inlcudes and specifying what you are looking for. you can find out if what is specified is inside the array.
+name.push("");                      // using the .push function. you can add item to the last element of the array.
+name.pop;                           // can use .pop to remove the last item of the array. 
+
+
+
+
+
+
+
