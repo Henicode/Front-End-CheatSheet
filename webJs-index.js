@@ -67,7 +67,9 @@ function firstFunction (parameter1, parameter2){                 // created a fu
 
 if (firstFunction < 3){                   // using an if statement, you can specify a block of code to be executed if a specified condition(in the brackets) is true
   return false;                           // this will be what itll return if the condition above is true.
-}else {                                   // using an else statement, you can specify a bloack of code to be executed, if the statement is false
+}else if (firstFunction >=8){             // using else if statement, you can add more conditions to the function so when the first if statment is not true, you can try this
+  return "rumble";                        // and if this else if statment is true then it will execute the command which in this case is the word rumble
+}else {                                   // using an else statement, you can specify a block of code to be executed, if both statements above it is false
   return true;                            // this is what it will return if the condition is false.
 }
 
@@ -79,3 +81,7 @@ guestList[2];                      // you can call on the data stored in a speci
 Math.floor(Math.random() * 10);        // with the .floor you can turn int into numbers with out decimals. using .random you can generate random numbers
                                        // from 0.00 to 0.99999. and by multipying that by 10 you'd get numbers from 0-9. if you need numbers from 0-10
                                        // you can either add 1 at the end or add 1 to the multiplied value 
+
+=== OR ==                             // the difference between two and three equal signs. three equals checks that if the data types is also equal
+  
+  
