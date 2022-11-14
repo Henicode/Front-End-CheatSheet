@@ -66,7 +66,30 @@ function whosPaying(names) {
 
                   // --------------BREAK-------------------//
 
+// FIZZ BUZZ. create a code that creates a sequence of numbers starting from 1 and when number is divisible by 3 it shows "fizz" and divisible by 5 "buzz"
+// AND if its divisible by both it output "fizzbuzz"
 
+var output = [];
+var count = 1;
+
+function fizzBuzz(){
+while (count <= 100) {           // using a while loop, in this case it will execute the if statments while the condition is true so this will loop around 100x 
+  
+   if (count % 3 === 0 && count % 5 === 0) {
+       output.push ("Fizz");
+   }else if (count % 3 === 0) {
+       output.push ("Fizz");
+   }else if (count % 5 === 0) {
+       output.push ("Buzz");
+   }else {
+        output.push(count);
+   }
+    count++;
+}  
+  console.log(output);
+  
+}
+  
 
 
 
