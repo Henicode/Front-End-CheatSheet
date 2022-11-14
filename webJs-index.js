@@ -68,6 +68,7 @@ function firstFunction (parameter1, parameter2){                 // created a fu
 if (firstFunction < 3){                   // using an if statement, you can specify a block of code to be executed if a specified condition(in the brackets) is true
   return false;                           // this will be what itll return if the condition above is true.
 }else if (firstFunction >=8){             // using else if statement, you can add more conditions to the function so when the first if statment is not true, you can try this
+                                          // the else if statement is only executed only when the if statement is false
   return "rumble";                        // and if this else if statment is true then it will execute the command which in this case is the word rumble
 }else if (firstFunction >= 8 && firstFunction < 3){     // by using the && method, you can combine comparisons for the function 
   return "jump";                                        // so if both the conditions are true, this line will be executed which will return the string "jump".
