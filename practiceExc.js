@@ -108,6 +108,20 @@ while (bottles >= 0) {
 }
 
 
+// ROCK, PAPER, SCISSORS GAME
+
+const n = ["ROCK", "PAPER", "SCISSOR"]                            // using const, store an array of data which in this case is the three strings for the game
+
+function gamePlay(){
+  var theLength = n.length;                                // using the variable name stored. you can determine the amount of data "" is stored in the aray which is 3
+  var randomSelector = Math.floor(Math.random() * theLength);       // then we use the total amount of data stored (3) and multiply it with random int withought decimal
+  var play = n[randomSelector];                          // then we call out the variable and the randomly selected data position
+  
+  console.log(play);
+}
+   
+
+
 
 
 
