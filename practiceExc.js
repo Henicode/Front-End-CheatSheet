@@ -49,6 +49,42 @@ function leapYear(year){
   
 }  
   
+                  // --------------BREAK-------------------//
+
+// Create a function that takes an array of names and randomly select one and output the name and text saying they pay lunch
+
+var names = ["Angela", "Ben", "Jenny", "Michael", "Chloe"]
+
+function whosPaying(names) {
+  var numOfPeople = names.length;
+  var randomPosition = Math.floor(Math.random() * numOfPeople);
+  var personSelected = name[randomPosition];
   
+  return personSelected + " is paying lunch today! ";
+  
+}
+
+                  // --------------BREAK-------------------//
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
   
 
