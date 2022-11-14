@@ -90,7 +90,22 @@ while (count <= 100) {           // using a while loop, in this case it will exe
   
 }
   
+                  // --------------BREAK-------------------//
 
+// 99 Bottles Song
+// since the song is repetitive, all you need to do is decrement the amount of bootles and add the string
+// can use the while loop to repeat the cycle until it reaches 0.
+
+var bottles = 99;
+
+while (bottles >= 0) {
+    console.log(bottles + " bottles of beer on the wall, ");
+    console.log(bottles + " bottles of beer. ");
+    console.log("take one down and pass it around, ")
+    bottles--;
+    console.log(bottles + " bottles of beer on the wall.")
+    
+}
 
 
 
