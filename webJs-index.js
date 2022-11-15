@@ -2,7 +2,7 @@
 
 // Adding behaviour to website 
 
-alert('message');  // metod displays an alert dialog with the optional specified content and an ok button.
+alert('message');  // method displays an alert dialog with the optional specified content and an ok button.
                     // used when you want information to come through to the user. 
                     // alert is the function.
                     // "message" is the message or string you're displaying.
