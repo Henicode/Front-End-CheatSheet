@@ -109,6 +109,55 @@ for(i=1; i<10 ; i++){            // in the parentheses the first statment is the
                                  // third will be executed once the loop for the two statment is true. so it goes i=1 => i<10 then it executes the console.log. 
                                  // And then the third command is implimented after the condition which is the console.log. 
 
+                   /// The Document Object Model. DOM
+                   // Adding JavaScript to HTML 
+
+<body onload='alert'("Hello Wrold")>       // Option one adding javascript is by adding the code in the body tag using the onload command. NOT RECOMMEND
+ 
+<script type = "text/javascrip">          // this is internal script which allows you to write javascript code inside the html file whithin the scrip tag
+  JavaScript code
+ </script> 
+ 
+<script src="index.js"> </script>       /// this is external file. just like how you link the css file to html. you can also use the script src option to link 
+                                        // your javascript codes. placement of this script tag in html is important. make sure to PLACE IT BEFORE THE CLOSING BODY TAG.
+
+
+// The HTML DOM Tree of Objects //
+
+//         HTML                  // This is the .firstElementChild. can be accessed using document.firstElementChild; 
+//          | 
+//           -- HEAD
+//          |     |
+//          |     |--META
+//          |     |--TITLE
+//          |     |--LINK
+//          |
+//          |------BODY       
+//                  |
+//                  |--H1
+//                  |--INPUT
+//                  |--BUTTON
+//                  |--UL
+//                  |  |-----LI
+//                  |  |      |--A
+//                  |  |--LI
+//                  |  |--LI
+//                  |
+//                  |---------SCRIPT 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 
