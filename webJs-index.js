@@ -8,8 +8,8 @@ alert('message');  // method displays an alert dialog with the optional specifie
                     // "message" is the message or string you're displaying.
                     // ; all javascript end in semicolon so browser understands that is the end of the line.  
              
-// give your variable a good meaningfull names    
-// use camel casing when naming variables for better understanding, that means first letter is small letter and ever subsequent one is. 
+// ** give your variable a good meaningfull names    
+// ** use camel casing when naming variables for better understanding, that means first letter is small letter and ever subsequent one is. 
 
 var exampleData = "store data"; // with var statement you can declare a variable that store data 
                     // and those data can be "strings", numbers, boolean.
@@ -122,38 +122,46 @@ for(i=1; i<10 ; i++){            // in the parentheses the first statment is the
                                         // your javascript codes. placement of this script tag in html is important. make sure to PLACE IT BEFORE THE CLOSING BODY TAG.
 
 
-// The HTML DOM Tree of Objects //
-
-//         HTML                  // This is the .firstElementChild. can be accessed using document.firstElementChild; 
-//          | 
-//           -- HEAD
-//          |     |
-//          |     |--META
-//          |     |--TITLE
-//          |     |--LINK
-//          |
-//          |------BODY       
-//                  |
-//                  |--H1
-//                  |--INPUT
-//                  |--BUTTON
-//                  |--UL
-//                  |  |-----LI
-//                  |  |      |--A
-//                  |  |--LI
-//                  |  |--LI
-//                  |
-//                  |---------SCRIPT 
+                                                           // The HTML DOM Tree of Objects //
 
 
+//                   HTML                  // This is the .firstElementChild. can be accessed using document.firstElementChild; 
+//                    | 
+//                     -- HEAD
+//                    |     |
+//                    |     |--META
+//                    |     |--TITLE
+//                    |     |--LINK
+//                    |
+//                    |------BODY       
+//                            |
+//                            |--H1
+//                            |--INPUT
+//                            |--BUTTON
+//                            |--UL
+//                            |  |-----LI
+//                            |  |      |--A
+//                            |  |--LI
+//                            |  |--LI
+//                            |
+//                            |---------SCRIPT 
 
+ // Methods are actions you can perform (on HTML Elements). A method is an action you can do (like add or deleting an HTML element).
+// properties are values (of HTML Elements) that you can set or change.A property is a value that you can get or set (like changing the content of an HTML element).
 
+// Using the dot notation. you can call the properties or methods. 
+                         __                                                                                 __
+          .click()         |                                                                   .innerHTML     |  
+          .appendChild()   |---  //  these are METHODS that can be called for action           .style         |--- // these are PROPERTIES that are values of the HTML  
+          .setAttribute    |                                                                   .firstChild    |
+                         __|                                                                                __|
 
+document        // you can access the entire HTML file with this command 
+document.firstElementChild   // you can access a specific property by using the dot notation. this can be expanded like( document.firstElementChild.lastElementChild ).
+                             // using properties, you can access specific parts, and using method you can manipulate it. 
+var heading = document.firstElementChild.firstElementChild;         // you can assign a variable a property of the document. which in this case is the head 
 
-
-
-
-
+heading.innerHTML = "Hello World";        // since the header property is stored in a variable. we can call that variable and assign it a method to make it do thing
 
 
 
