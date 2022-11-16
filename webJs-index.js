@@ -153,7 +153,7 @@ for(i=1; i<10 ; i++){            // in the parentheses the first statment is the
                          __                                                                                 __
           .click()         |                                                                   .innerHTML     |  
           .appendChild()   |---  //  these are METHODS that can be called for action           .style         |--- // these are PROPERTIES that are values of the HTML  
-          .setAttribute    |                                                                   .firstChild    |
+          .setAttribute()  |    // they are a function that the object can do                  .firstChild    |    //
                          __|                                                                                __|
 
 document        // you can access the entire HTML file with this command 
@@ -165,9 +165,9 @@ heading.innerHTML = "Hello World";        // since the header property is stored
 
 // DOM Manipulating 
 
-const title = document.getElementByID('The id name');       // using the get element by id property. you can select using the id name and store it for manipulation.
-const list = document.getElementByClassName('class name here');   // this will get property by class name. also can be stored in a variable for manipulation
-const item = document.getElementByTagName('tag name');        // also can get property using the tag name and store in var for manipulation
+const title = document.getElementByID('The-id-name');       // using the get element by id property. you can select using the id name and store it for manipulation.
+const list = document.getElementsByClassName('class-name-here');   // this will get property by class name. also can be stored in a variable for manipulation
+const item = document.getElementsByTagName('tag-name');        // also can get property using the tag name and store in var for manipulation
 const select = document.querySelector('div');            // query selector method returns the first element that matches a CSS selector.in this case, it will return the first div element.
 const selectAll = document.quweySelectoreAll('div'); // query slector all return all matches with the CSS selector specified not just the first. this will return all the divs in the html file. 
 
