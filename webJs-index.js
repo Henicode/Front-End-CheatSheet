@@ -168,11 +168,16 @@ heading.innerHTML = "Hello World";        // since the header property is stored
 const title = document.getElementByID('The-id-name');       // using the get element by id property. you can select using the id name and store it for manipulation.
 const list = document.getElementsByClassName('class-name-here');   // this will get property by class name. also can be stored in a variable for manipulation
 const item = document.getElementsByTagName('tag-name');        // also can get property using the tag name and store in var for manipulation
+// const itemExample = document.getElementsByTagName('head ul');   // using the sapce. you can do a hierarchical method and add a rout to getting an element inside an element                        
 const select = document.querySelector('div');            // query selector method returns the first element that matches a CSS selector.in this case, it will return the first div element.
 const selectAll = document.quweySelectoreAll('div'); // query slector all return all matches with the CSS selector specified not just the first. this will return all the divs in the html file. 
 
+const selectEverting = document.querySelectror("#id a");   // using a hierarchical structure. you can specify you selection by calling for an anchor tag that is inside an id. 
 // ** REMINDER ** To select Id, need to specify by using (#). To select class, need to specify by using by sing (.)
 
+// Methods 
+
+innerHTML = "Text";              
 
 
 
