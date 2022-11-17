@@ -107,6 +107,7 @@ while (bottles >= 0) {
     
 }
 
+                  // --------------BREAK-------------------//
 
 // ROCK, PAPER, SCISSORS GAME
 
@@ -120,7 +121,27 @@ function gamePlay(){
   console.log(play);
 }
    
+                  // --------------BREAK-------------------//
+// Dice Game 
+// assuming the html and images files are done and this is the javaScript you need to make it do things 
 
+var randomNumber1 = Math.floor(Math.random() * 6) + 1;     // create a var that holds a random number from 1-6 in this case
+var randomDice1 = "images/dice" + randomNumber1 + ".png";      // create another var and assign the src of those images("images/dice")fileName/imgName. and add that to the random num generator and add the ".png" to notify it type
+                                                             // with these two variables, you are selecting random image in a folder called images 
+var randomNumber2 = Math.floor(Math.random() * 6) + 1;          
+var randomDice2 = "images/dice" + randomNumber2 + ".png";      // we have two src in the HTML file so we do the same thing again here.
+
+document.querySelectorAll("img")[0].setAttribute("src", randomDice1);        // then we assign the src that is in the HTML file to the random dice variable so that it selects the images in the file randomly rather than just one
+document.querySelectorAll("img")[1].setAttribute("src", randomDice2);        // do the same for the second src 
+
+
+if(randomNumber1 > randomNumber2){                                  // since we have already created a variable that select random number for the img, we can use if statments to have conditions 
+    document.querySelector("h1").innerHTML = "< Player 1 win";      // tapping into the header. you can change it when the condition above is true. so when dice one is greater than two, we change the head to say "player one win".
+}else if(randomNumber2 > randomNumber1){
+    document.querySelector("h1").innerHTML = "Player 2 win >";
+}else {
+    document.querySelector("h1").innerHTML = "Draw";
+}
 
 
 
