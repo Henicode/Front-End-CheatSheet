@@ -177,7 +177,11 @@ const selectEverting = document.querySelectror("#id a");   // using a hierarchic
 
 // Methods 
 
-innerHTML = "Text";              
+.innerHTML = "Text";          // this is one of many style method that you can apply to manipulate the document. ( https://www.w3schools.com/jsref/dom_obj_style.asp )
+.textContent = "other Text";    // using .textContent, you'll be able to get the actual text stored, unlike .innerHTML which gives the elements around it ex(<strong>Text</stront>) calling innerHTML will out put everyting in the brackets.
+querySelector("h1").classList.add("text");       // you can also add a class list to an element by calling .classList method and saying .add to add the name of the class.
+                   .classList.remove("text");     // can also remove it by calling the remove function. so this case, we are calling for the h1 and adding a class named "text" and removing it 
+
 
 
 
