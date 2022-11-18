@@ -182,8 +182,9 @@ const selectEverting = document.querySelectror("#id a");   // using a hierarchic
 querySelector("h1").classList.add("text");       // you can also add a class list to an element by calling .classList method and saying .add to add the name of the class.
                    .classList.remove("text");     // can also remove it by calling the remove function. so this case, we are calling for the h1 and adding a class named "text" and removing it 
 
-
-
+.addEventListener;         // eventlistner is a method you can call up a procedure in JavaScript that waits for an event to occur. example of an event is a user clicking the mouse or pressing a key on the keyboard.
+                           // (https://developer.mozilla.org/en-US/docs/Web/Events) for more list of event listners 
+                           // (https://developer.mozilla.org/en-US/docs/Web/API/HTMLMediaElement/play) more add event listner features that can be executed.
 
 
 
