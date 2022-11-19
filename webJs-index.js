@@ -186,5 +186,14 @@ querySelector("h1").classList.add("text");       // you can also add a class lis
                            // (https://developer.mozilla.org/en-US/docs/Web/Events) for more list of event listners 
                            // (https://developer.mozilla.org/en-US/docs/Web/API/HTMLMediaElement/play) more add event listner features that can be executed.
 
+// Creating a constuctor function 
 
+function BellBoy (name, age, workPermit, language) {         // create a function that has a name where firstletter is captitalized to establish it as a constuctor function and set the parameters as the input of imformation
+  this.name = name;                                          // .this keyword refers to an object
+  this.age = age:                                            // .this in methods refers to the object but in function and alone refers to global object
+  this.workPermit = workPermit;
+  this.language = language;
+ 
+ var bellBoy1 = new BellBoy("henok", 23, true, ["Engligh", "Amharic"]);         // creat a variable that stores the information of the function BellBoy using initialise object. name sure to say new
+}
 
