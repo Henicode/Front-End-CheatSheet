@@ -197,6 +197,23 @@ function BellBoy (name, age, workPermit, language) {         // create a functio
  var bellBoy1 = new BellBoy("henok", 23, true, ["Engligh", "Amharic"]);         // creat a variable that stores the information of the function BellBoy using initialise object. name sure to say new
 }
 
-//.this 
+// higher order function & curring  
 
-.this             // 
+// it defining characteristics are that it takes other functions as arguments and/or it may return another function.
+
+const add = (num1, num2) => {
+  return num1 + num2
+}
+
+const subtract = (num1, num2) => {
+  return num1 - num2
+}
+
+const compute = (operation, num1, num2) => {
+  return operation(num1, num2)
+}
+
+compute(add, 5, 2) //=> returns 7
+
+
+
