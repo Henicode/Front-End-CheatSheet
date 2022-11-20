@@ -197,3 +197,6 @@ function BellBoy (name, age, workPermit, language) {         // create a functio
  var bellBoy1 = new BellBoy("henok", 23, true, ["Engligh", "Amharic"]);         // creat a variable that stores the information of the function BellBoy using initialise object. name sure to say new
 }
 
+//.this 
+
+.this             // 
