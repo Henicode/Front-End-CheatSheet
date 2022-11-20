@@ -67,9 +67,9 @@ function firstFunction (parameter1, parameter2){                 // created a fu
 
 if (firstFunction < 3){                   // using an if statement, you can specify a block of code to be executed if a specified condition(in the brackets) is true
   return false;                           // this will be what itll return if the condition above is true.
-}else if (firstFunction >=8){             // using else if statement, you can add more conditions to the function so when the first if statment is not true, you can try this
+}else if (firstFunction >=8){             // using else if statement, you can add more conditions to the function so when the first if statement is not true, you can try this
                                           // the else if statement is only executed only when the if statement is false
-  return "rumble";                        // and if this else if statment is true then it will execute the command which in this case is the word rumble
+  return "rumble";                        // and if this else if statement is true then it will execute the command which in this case is the word rumble
 }else if (firstFunction >= 8 && firstFunction < 3){     // by using the && method, you can combine comparisons for the function 
   return "jump";                                        // so if both the conditions are true, this line will be executed which will return the string "jump".
 }else {                                   // using an else statement, you can specify a block of code to be executed, if both statements above it is false
@@ -103,10 +103,10 @@ while(i < 10) {                  // with the while loop, it basically says while
 
 // FOR LOOOOOOOP                 // for loop is basically a reshuffled version of while loop. more simplified 
 
-for(i=1; i<10 ; i++){            // in the parentheses the first statment is the start of the consition, second is the end and third is the change being implimented 
-  console.log(i);                // now while the first two statments in the paratheses is true, this line will be executed
+for(i=1; i<10 ; i++){            // in the parentheses the first statement is the start of the consition, second is the end and third is the change being implimented 
+  console.log(i);                // now while the first two statements in the paratheses is true, this line will be executed
 }                                // so for this loop. first stat sets the value of i to 1, second stat lets know the conition so WHILE i is less than 10,
-                                 // third will be executed once the loop for the two statment is true. so it goes i=1 => i<10 then it executes the console.log. 
+                                 // third will be executed once the loop for the two statement is true. so it goes i=1 => i<10 then it executes the console.log. 
                                  // And then the third command is implimented after the condition which is the console.log. 
 
                    /// The Document Object Model. DOM
@@ -222,9 +222,9 @@ function HouseKeepers(name, age, work, language) {
     this.age = age;
     this.work = work;
     this.language = language;
-    this.clean = function() {                         // with call method you can call a function that stores a function of things to do. so here using the .this statment, you can create an object that sores a function
+    this.clean = function() {                         // with call method you can call a function that stores a function of things to do. so here using the .this statement, you can create an object that sores a function
         alert("Cleaning in Progress......");         // and that function will execute something to. in this case it would be to alert that cleaning is in progress  
     }     
  
-
+// switch statement 
 
