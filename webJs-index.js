@@ -215,5 +215,16 @@ const compute = (operation, num1, num2) => {
 
 compute(add, 5, 2) //=> returns 7
 
+// call method , constructive functions        ????
+
+function HouseKeepers(name, age, work, language) {
+    this.name = name;
+    this.age = age;
+    this.work = work;
+    this.language = language;
+    this.clean = function() {                         // with call method you can call a function that stores a function of things to do. so here using the .this statment, you can create an object that sores a function
+        alert("Cleaning in Progress......");         // and that function will execute something to. in this case it would be to alert that cleaning is in progress  
+    }     
+ 
 
 
