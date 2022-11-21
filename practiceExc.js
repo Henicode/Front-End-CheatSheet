@@ -143,6 +143,28 @@ if(randomNumber1 > randomNumber2){                                  // since we 
     document.querySelector("h1").innerHTML = "Draw";
 }
 
+                  // --------------BREAK-------------------//
+
+// Calculator 
+
+function add(num1, num2){
+	return num1 + num2;
+}
+function subtract(num1, num2){
+	return num1 - num2;
+}
+function multiply(num1, num2) {
+	return num1 * num2;
+}
+function divide(num1, num2) {
+	return num1 / num2;
+}
+
+
+function calculate(num1,num2, operator) {                 // with the operator function, you can just call the two numbers and the calculation you want to do to get result
+	return operator(num1,num2);                          // Ex calculate(21,56,add);
+}
+
 
 
 
