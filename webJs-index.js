@@ -186,6 +186,7 @@ querySelector("h1").classList.add("text");       // you can also add a class lis
                            // (https://developer.mozilla.org/en-US/docs/Web/Events) for more list of event listners 
                            // (https://developer.mozilla.org/en-US/docs/Web/API/HTMLMediaElement/play) more add event listner features that can be executed.
 
+.addEventListener(input1, input2);        // Using add event listener. you can have an input that stores an event were detecting like "click". input2 will be the response we have when that input1 occurs
 // Creating a constuctor function 
 
 function BellBoy (name, age, workPermit, language) {         // create a function that has a name where firstletter is captitalized to establish it as a constuctor function and set the parameters as the input of imformation
