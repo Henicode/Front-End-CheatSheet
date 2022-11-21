@@ -187,6 +187,11 @@ querySelector("h1").classList.add("text");       // you can also add a class lis
                            // (https://developer.mozilla.org/en-US/docs/Web/API/HTMLMediaElement/play) more add event listner features that can be executed.
 
 .addEventListener(input1, input2);        // Using add event listener. you can have an input that stores an event were detecting like "click". input2 will be the response we have when that input1 occurs
+.addEventListener("click", function(){    // so here you can have first event as the click, and second will be an empty function that has an audio play
+  var audio = new Audio(/sounds/song.mp3);    // For more resources ====== (https://developer.mozilla.org/en-US/docs/Web/API/HTMLAudioElement)
+  audio.play();
+}
+
 // Creating a constuctor function 
 
 function BellBoy (name, age, workPermit, language) {         // create a function that has a name where firstletter is captitalized to establish it as a constuctor function and set the parameters as the input of imformation
