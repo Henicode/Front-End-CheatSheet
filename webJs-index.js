@@ -226,5 +226,5 @@ function HouseKeepers(name, age, work, language) {
         alert("Cleaning in Progress......");         // and that function will execute something to. in this case it would be to alert that cleaning is in progress  
     }     
  
-// switch statement 
+// switch statement . Object, their methods and dot notation 
 
