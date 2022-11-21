@@ -189,7 +189,7 @@ querySelector("h1").classList.add("text");       // you can also add a class lis
 .addEventListener(input1, input2);        // Using add event listener. you can have an input that stores an event were detecting like "click". input2 will be the response we have when that input1 occurs
 .addEventListener("click", function(){    // so here you can have first event as the click, and second will be an empty function that has an audio play
   var audio = new Audio(/sounds/song.mp3);    // For more resources ====== (https://developer.mozilla.org/en-US/docs/Web/API/HTMLAudioElement)
-  audio.play();
+  audio.play();                               // For more resources ====== (https://www.w3schools.com/jsref/dom_obj_audio.asp)
 }
 
 // Creating a constuctor function 
