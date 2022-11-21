@@ -192,7 +192,7 @@ querySelector("h1").classList.add("text");       // you can also add a class lis
   audio.play();                               // For more resources ====== (https://www.w3schools.com/jsref/dom_obj_audio.asp)
 }
 
-// Creating a constuctor function 
+// Creating a Constuctor Function 
 
 function BellBoy (name, age, workPermit, language) {         // create a function that has a name where firstletter is captitalized to establish it as a constuctor function and set the parameters as the input of imformation
   this.name = name;                                          // .this keyword refers to an object
