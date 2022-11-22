@@ -233,4 +233,59 @@ function HouseKeepers(name, age, work, language) {
     }     
  
 // switch statement . Object, their methods and dot notation . redo 166 & 167 for better understanding (https://www.youtube.com/watch?v=x5trGVMKTdY)
-
+// call back and responding to events 
+  
+document.addEventListener("keypress", function(event){        //171
+    console.log(event);
+});
+undefined
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
