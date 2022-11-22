@@ -184,7 +184,7 @@ querySelector("h1").classList.add("text");       // you can also add a class lis
 
 .addEventListener;         // eventlistner is a method you can call up a procedure in JavaScript that waits for an event to occur. example of an event is a user clicking the mouse or pressing a key on the keyboard.
                            // (https://developer.mozilla.org/en-US/docs/Web/Events) for more list of event listners 
-                           // (https://developer.mozilla.org/en-US/docs/Web/API/HTMLMediaElement/play) more add event listner features that can be executed.
+                           // (https://developer.mozilla.org/en-US/docs/Web/API/HTMLMediaElement/play) (https://developer.mozilla.org/en-US/docs/Web/Events) more add event listner features that can be executed.
 
 .addEventListener(input1, input2);        // Using add event listener. you can have an input that stores an event were detecting like "click". input2 will be the response we have when that input1 occurs
 .addEventListener("click", function(){    // so here you can have first event as the click, and second will be an empty function that has an audio play
