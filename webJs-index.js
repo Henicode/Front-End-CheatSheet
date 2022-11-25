@@ -245,11 +245,17 @@ undefined
   
   
               //=============================================== JQuery ==============================================//
+          //( <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.1/jquery.min.js"></script> ) //
+          // to check for the latest version ( https://developers.google.com/speed/libraries/#jquery );
   
   
+    // jQuery is a fast, small, and feature-rich JavaScript library.
+   //It makes things like HTML document traversal and manipulation, event handling, animation, and Ajax much simpler with an easy-to-use API that works 
+   //across a multitude of browsers.
   
-  
-  
+  document.quweryselector("h1")     // using query selector, you can tap into the h1 of html document but it can be simplified using jQuery by...
+  jquery("h1")                  // calling jQuery and the element you want to tap into in the parentheses or to simplify it even more you can...
+  $("h1")                      // call the $ sign which is basically the jQuery sign 
   
   
   
