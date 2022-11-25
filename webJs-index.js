@@ -246,7 +246,8 @@ undefined
   
               //=============================================== JQuery ==============================================//
           //( <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.1/jquery.min.js"></script> ) // make sure to add it righ above the javaScrip script tag
-          // to check for the latest version ( https://developers.google.com/speed/libraries/#jquery );
+          // to check for the latest version ( https://developers.google.com/speed/libraries/#jquery )
+          // all javaScript methods still apply for jQuery so you can implement them ( https://developer.mozilla.org/en-US/docs/Web/Events )
   
   
     // jQuery is a fast, small, and feature-rich JavaScript library.
@@ -257,6 +258,10 @@ undefined
   jquery("h1")                  // calling jQuery and the element you want to tap into in the parentheses or to simplify it even more you can...
   $("h1")                      // call the $ sign which is basically the jQuery sign 
   
+  $("h1").click(function(){      // since were simplifying everything using jQuery, you can add event listner by just calling the method you want to execute 
+    console.log("working");      
+  });
+                        
   
   
   
