@@ -1,7 +1,17 @@
                                                              Command line 
                                                     https://www.learnenough.com/command-line-tutorial
+                                                    https://nodejs.org/api/
                                                               For More Resources 
                                                               
 Node JS - allows you to write code that can interact with the computer, independently of the browser. 
         - basically allows us to take javascript out of the browser and it liberates it, allowing it to interact directly the hardware.   
                                                    
+      Command lines - 
+                    pwd -  print working directory (print wherer we are currently).
+                    cd - change directory ( cd Desktop/ ) 
+                    ls - list of everything in current directory location. 
+                    mkdir - make new directory/folder using command line in the location you are in ( mkdir new_folder )
+                    touch - make new file using command line in the current location ( touch index.js )
+                    node - you can call node to execute js files in the command line ( node index.js ) OR you can call node to use REPL 
+                    REPL - read evaluation print loop ( allows you to execute code in bite size chunks )
+                    exiting - you can either use .exit or ctrl + cc to get out of the loop. 
