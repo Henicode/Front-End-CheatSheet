@@ -15,4 +15,5 @@ Node JS - allows you to write code that can interact with the computer, independ
                     node - you can call node to execute js files in the command line ( node index.js ) OR you can call node to use REPL 
                     REPL - read evaluation print loop ( allows you to execute code in bite size chunks ). can be used like the chrome console
                     exiting - you can either use .exit or ctrl + cc to get out of the loop. 
+                    node init - used to set up a new or existing npm package 
                     
