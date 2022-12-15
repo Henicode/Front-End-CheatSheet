@@ -18,3 +18,8 @@ Node JS - allows you to write code that can interact with the computer, independ
                     node init - used to set up a new or existing npm package 
                               - npm init (https://www.npmjs.com/) for more packages to execute. it creates a json file to store all data 
                     
+                    Express Node - is a Node framework.
+                                   Difference between Node JS and Express is that node is a package that provides javascript the enviromental run-time and node is the 
+                                              framework that node uses to helps us to handle requests and responses.
+                                              
+                 
