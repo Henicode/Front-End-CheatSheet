@@ -21,5 +21,6 @@ Node JS - allows you to write code that can interact with the computer, independ
                     Express Node - is a Node framework.
                                    Difference between Node JS and Express is that node is a package that provides javascript the enviromental run-time and node is the 
                                               framework that node uses to helps us to handle requests and responses.
+                                   Course Section 19, E227,228. for more info about using express to install server and handle request and responses 
                                               
                  
